@@ -44,7 +44,7 @@ function App() {
             <img 
               src={logo} 
               alt="The Layered Future" 
-              className="h-20 md:h-24 mx-auto mb-6"
+              className="h-36 md:h-48 mx-auto mb-6"
             />
           </div>
           
