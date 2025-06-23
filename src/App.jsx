@@ -329,7 +329,7 @@ function App() {
               <img 
                 src={logo} 
                 alt="The Layered Future" 
-                className="h-12 mb-4"
+                className="h-12 md:h-16 mx-auto mb-4"
               />
               <p className="text-muted-foreground">
                 Exploring the intersection of creativity and emerging tech.
@@ -390,4 +390,3 @@ function App() {
 }
 
 export default App
-
