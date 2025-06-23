@@ -48,7 +48,7 @@ function App() {
             />
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-[#FF6B00] to-[#FF8533] bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-brand to-purple-400 bg-clip-text text-transparent">
             Built Different. Not Left Behind.
           </h1>
           
@@ -59,7 +59,7 @@ function App() {
           <div className="mb-8">
             <Button 
               size="lg" 
-              className="bg-[#FF6B00] hover:bg-[#FF5500] text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+              className="bg-brand hover:bg-purple-600 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
               onClick={() => scrollToSection('contact')}
             >
               <Download className="mr-2 h-5 w-5" />
@@ -76,7 +76,7 @@ function App() {
           <div className="mt-12 max-w-4xl mx-auto">
             <div className="aspect-video bg-[#2A2A2A] rounded-lg flex items-center justify-center border border-border">
               <div className="text-center">
-                <div className="w-16 h-16 bg-[#FF6B00] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z"/>
                   </svg>
@@ -109,14 +109,14 @@ function App() {
               </p>
               
               <div className="flex items-center space-x-4">
-                <Badge variant="secondary" className="bg-[#FF6B00] text-white">
+                <Badge variant="secondary" className="bg-brand text-white">
                   Division of CloosEffects LLC
                 </Badge>
               </div>
             </div>
             
             <div className="bg-[#2A2A2A] p-8 rounded-lg border border-border">
-              <blockquote className="text-2xl font-semibold text-[#FF6B00] mb-4">
+              <blockquote className="text-2xl font-semibold text-brand mb-4">
                 "Work with the wave, not against it."
               </blockquote>
               <p className="text-muted-foreground">
@@ -138,9 +138,9 @@ function App() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <Card className="bg-card border-border hover:border-[#FF6B00] transition-colors duration-300">
+            <Card className="bg-card border-border hover:border-brand transition-colors duration-300">
               <CardHeader>
-                <FileText className="h-8 w-8 text-[#FF6B00] mb-2" />
+                <FileText className="h-8 w-8 text-brand mb-2" />
                 <CardTitle className="text-lg">JSON Profile Builder</CardTitle>
               </CardHeader>
               <CardContent>
@@ -150,9 +150,9 @@ function App() {
               </CardContent>
             </Card>
             
-            <Card className="bg-card border-border hover:border-[#FF6B00] transition-colors duration-300">
+            <Card className="bg-card border-border hover:border-brand transition-colors duration-300">
               <CardHeader>
-                <Zap className="h-8 w-8 text-[#FF6B00] mb-2" />
+                <Zap className="h-8 w-8 text-brand mb-2" />
                 <CardTitle className="text-lg">AI Prompts Library</CardTitle>
               </CardHeader>
               <CardContent>
@@ -162,9 +162,9 @@ function App() {
               </CardContent>
             </Card>
             
-            <Card className="bg-card border-border hover:border-[#FF6B00] transition-colors duration-300">
+            <Card className="bg-card border-border hover:border-brand transition-colors duration-300">
               <CardHeader>
-                <Users className="h-8 w-8 text-[#FF6B00] mb-2" />
+                <Users className="h-8 w-8 text-brand mb-2" />
                 <CardTitle className="text-lg">Video Walkthrough</CardTitle>
               </CardHeader>
               <CardContent>
@@ -174,9 +174,9 @@ function App() {
               </CardContent>
             </Card>
             
-            <Card className="bg-card border-border hover:border-[#FF6B00] transition-colors duration-300">
+            <Card className="bg-card border-border hover:border-brand transition-colors duration-300">
               <CardHeader>
-                <Shield className="h-8 w-8 text-[#FF6B00] mb-2" />
+                <Shield className="h-8 w-8 text-brand mb-2" />
                 <CardTitle className="text-lg">Future-Proof Tools</CardTitle>
               </CardHeader>
               <CardContent>
@@ -190,7 +190,7 @@ function App() {
           <div className="text-center">
             <Button 
               size="lg" 
-              className="bg-[#FF6B00] hover:bg-[#FF5500] text-white px-8 py-4 text-lg font-semibold rounded-lg"
+              className="bg-brand hover:bg-purple-600 text-white px-8 py-4 text-lg font-semibold rounded-lg"
               onClick={() => scrollToSection('contact')}
             >
               Grab Your Pack Now
@@ -212,7 +212,7 @@ function App() {
             <Card className="bg-background border-border">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center mr-4">
                     <span className="text-white font-bold">JD</span>
                   </div>
                   <div>
@@ -229,7 +229,7 @@ function App() {
             <Card className="bg-background border-border">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center mr-4">
                     <span className="text-white font-bold">JS</span>
                   </div>
                   <div>
@@ -245,7 +245,7 @@ function App() {
           </div>
           
           <div className="text-center mt-12">
-            <Badge variant="secondary" className="bg-[#FF6B00] text-white text-lg px-4 py-2">
+            <Badge variant="secondary" className="bg-brand text-white text-lg px-4 py-2">
               Division of CloosEffects LLC
             </Badge>
           </div>
@@ -285,7 +285,7 @@ function App() {
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="your@email.com"
                       required
-                      className="bg-background border-border focus:border-[#FF6B00]"
+                      className="bg-background border-border focus:border-brand"
                     />
                   </div>
                   
@@ -298,14 +298,14 @@ function App() {
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                       placeholder="Tell us about your creative goals or challenges..."
-                      className="bg-background border-border focus:border-[#FF6B00] min-h-[100px]"
+                      className="bg-background border-border focus:border-brand min-h-[100px]"
                     />
                   </div>
                   
                   <Button 
                     type="submit" 
                     size="lg" 
-                    className="w-full bg-[#FF6B00] hover:bg-[#FF5500] text-white font-semibold py-4 rounded-lg"
+                    className="w-full bg-brand hover:bg-purple-600 text-white font-semibold py-4 rounded-lg"
                   >
                     <Mail className="mr-2 h-5 w-5" />
                     Send Me the Starter Pack
@@ -343,21 +343,21 @@ function App() {
                   href="https://twitter.com/thelayeredfuture" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center text-muted-foreground hover:text-[#FF6B00] transition-colors"
+                  className="flex items-center text-muted-foreground hover:text-brand transition-colors"
                 >
                   <Twitter className="mr-2 h-4 w-4" />
                   X (Twitter)
                 </a>
                 <a 
                   href="#" 
-                  className="flex items-center text-muted-foreground hover:text-[#FF6B00] transition-colors"
+                  className="flex items-center text-muted-foreground hover:text-brand transition-colors"
                 >
                   <Youtube className="mr-2 h-4 w-4" />
                   YouTube
                 </a>
                 <a 
                   href="#" 
-                  className="flex items-center text-muted-foreground hover:text-[#FF6B00] transition-colors"
+                  className="flex items-center text-muted-foreground hover:text-brand transition-colors"
                 >
                   <FileText className="mr-2 h-4 w-4" />
                   Notion
@@ -368,10 +368,10 @@ function App() {
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <div className="space-y-2">
-                <a href="#" className="block text-muted-foreground hover:text-[#FF6B00] transition-colors">
+                <a href="#" className="block text-muted-foreground hover:text-brand transition-colors">
                   Terms of Service
                 </a>
-                <a href="#" className="block text-muted-foreground hover:text-[#FF6B00] transition-colors">
+                <a href="#" className="block text-muted-foreground hover:text-brand transition-colors">
                   Privacy Policy
                 </a>
               </div>
